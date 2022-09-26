@@ -40,7 +40,7 @@ struct ContentView: View {
                         .foregroundColor(isDarkMode ? Color.black : Color.white)
                     
                 }
-                Spacer()
+                
                 // button label for changing modes
                 Button{
                     isDarkMode.toggle()
